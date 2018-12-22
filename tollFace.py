@@ -1,5 +1,5 @@
 import cv2
-img1 = cv2.imread("troll.png")
+img1 = cv2.imread("trolll.png")
 cap = cv2.VideoCapture(0)
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 while(True):
